@@ -33,7 +33,7 @@ For the bootcamp, we’re going to start with a base repository, which will incl
 Run this command in the cli to set up shadcn/ui in the NextJS project.
 
 ```
-npx shadcn-ui@latest init
+npx shadcn@latest init
 ```
 
 Accept all the default options when prompted after entering the previous command.
@@ -47,9 +47,9 @@ Would you like to use CSS variables for colors? yes
 We will add some shadcn/ui components
 
 ```
-npx shadcn-ui@latest add button
-npx shadcn-ui@latest add sheet
-npx shadcn-ui@latest add sonner
+npx shadcn@latest add button
+npx shadcn@latest add sheet
+npx shadcn@latest add sonner
 ```
 
 If you explore the [repository](https://github.com/angelmc32/react-to-web3-bootcamp), we have created some basic components for the layout, and we can see some of the files installed by shadcn/ui, in the `/components/ui` folder, the `/lib/utils.ts` and the `/styles/globals.css` files. Feel free to copy/paste these files into your project.
